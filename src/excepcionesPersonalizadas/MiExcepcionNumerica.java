@@ -7,13 +7,13 @@ package excepcionesPersonalizadas;
 
 /**
  *
- * @author Estudiante
+ * @author Jomayra Larico
  */
 public class MiExcepcionNumerica extends Exception{
     
     private final static String mensaje = 
-            "Error de conversion numerica, "
-            + "ingresa un texto que contenga un numero";
+            "Error de conversión numérica, "
+            + "ingresa un texto que contenga un número";
     
     public MiExcepcionNumerica() {
         super(mensaje);

@@ -7,11 +7,11 @@ package excepcionesPersonalizadas;
 
 /**
  *
- * @author Estudiante
+ * @author Jomayra Larico
  */
 public class MiExcepcionGenerica extends Exception{
     private final static String message = 
-            "Esta es una excepcion gereal y no sabemosla causa";
+            "Esta es una excepción gereal y no sabemos la causa";
     public MiExcepcionGenerica() {
         super(message);
     }

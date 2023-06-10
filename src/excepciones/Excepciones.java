@@ -10,7 +10,7 @@ import excepcionesPersonalizadas.MiExcepcionGenerica;
 
 /**
  *
- * @author Estudiante
+ * @author Jomayra Larico
  */
 public class Excepciones {
 
@@ -21,7 +21,7 @@ public class Excepciones {
         try {
             String valorNumerico = "16ñ";
             int numero = Utilitario.convertir(valorNumerico);
-            System.out.println("El nùmero es: " + numero);
+            System.out.println("El número es: " + numero);
         } catch (MiExcepcionNumerica e) {
             System.err.println(e.getMessage());//En java se rportan lo erroes en .err
         } catch (MiExcepcionGenerica e){

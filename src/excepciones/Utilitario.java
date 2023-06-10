@@ -10,14 +10,14 @@ import excepcionesPersonalizadas.MiExcepcionGenerica;
 
 /**
  * 
- * @author Estudiante
+ * @author Jomayra Larico
  */
 public class Utilitario {
     /**
-     * Esta funcion permite convertir un texto en numero
+     * Esta función permite convertir un texto en número
      * y controlar los errores que se pueden presentar a
      * partir de ello.
-     * @param numeroEnTexto El numero a convertir
+     * @param numeroEnTexto El número a convertir
      * @return  Devuelve un valor de tipo entero int
      */
     public static int convertir(String numeroEnTexto) 
